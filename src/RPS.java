@@ -30,13 +30,13 @@ public class RPS {
                             (moveA.equals("P") && moveB.equals("R")) ||
                             (moveA.equals("S") && moveB.equals("P"))
             ) {
-                String desc = moveA.equals("R") ? "Rock breaks Scissors" :
+                String result = moveA.equals("R") ? "Rock breaks Scissors" :
                         moveA.equals("P") ? "Paper covers Rock" : "Scissors cuts Paper";
-                System.out.println(desc + "Player A wins");
+                System.out.println(result + "Player A wins");
             } else {
-                String desc = moveB.equals("R") ? "Rock breaks Scissors" :
+                String result = moveB.equals("R") ? "Rock breaks Scissors" :
                         moveB.equals("P") ? "Paper covers Rock" : "Scissors cuts Paper";
-                System.out.println(desc + "Player B wins");
+                System.out.println(result + "Player B wins");
             }
             System.out.print("Do you want to play again? y/n: ");
             playAgain = scanner.next();
