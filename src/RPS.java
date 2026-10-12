@@ -55,7 +55,6 @@ public class RPS {
                 System.out.println(result + "Player B wins");
             }
             System.out.print("Do you want to play again? [Y/N]: ");
-            playAgain = scanner.next();
             System.out.println();
         }
     }
